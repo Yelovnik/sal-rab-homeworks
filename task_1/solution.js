@@ -21,7 +21,7 @@
     message = message + " ";
     message = message + productPrice;
     message = message + " ";
-    message = message + "теперь в корзине";
+    message = message + "теперь в корзине!";
     console.log(message);  //уведомление о покупке
     
     // Конец решения задания №1.1.
@@ -61,7 +61,7 @@ function addInCartSumChange(sum, delta) {
     let newSum;
     newSum = (oldSum + difference);
     let newSumText;
-    newSumText = (newSum + 'руб.');
+    newSumText = (newSum + ' ₽');
     console.log(newSumText);  //итог в корзине
 
     // Конец решения задания №1.3.
