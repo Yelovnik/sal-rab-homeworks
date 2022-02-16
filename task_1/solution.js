@@ -15,12 +15,16 @@
     // выведите переменную message в консоль
     // какой-то комментарий
     // Конец решения задания №1.1.
-
+ 
+    let message = productName;
+    message = message + " ";
+    message = message + "за";
+    message = message + " ";
+    message = message + productPrice;
+    message = message + " ";
+    message = message + "теперь в корзине";
     return message;
 }
-    let message = "productName 'за' productPrice ' корзине!'";
-    console.log(message);
-    //подтверждение что товар положили в корзину
 
 function addInCartCountChange(value) {
 
