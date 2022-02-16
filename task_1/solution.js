@@ -23,6 +23,7 @@
     message = message + productPrice;
     message = message + " ";
     message = message + "теперь в корзине";
+    console.log(message);  //уведомление о покупке
     return message;
 }
 
@@ -37,6 +38,10 @@ function addInCartCountChange(value) {
 
     // Конец решения задания №1.2.
 
+    let newValue;
+    newValue = oldValue;
+    newValue = newValue + 1;
+    console.log(newValue);  //увеличение покупок в корзине
     return newValue;
 }
 
