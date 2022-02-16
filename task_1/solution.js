@@ -58,10 +58,9 @@ function addInCartSumChange(sum, delta) {
     // Конец решения задания №1.3.
 
     let newSum;
-    newSum = oldSum + difference;
-
+    newSum = (oldSum + difference);
     let newSumText;
-    newSumText = newSum + 'руб.';
+    newSumText = (newSum + 'руб.');
     console.log(newSumText);  //итог в корзине
     return newSumText;
 }
