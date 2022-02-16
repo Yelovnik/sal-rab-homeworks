@@ -18,6 +18,9 @@
 
     return message;
 }
+    let message = "productName 'за' productPrice ' корзине!'";
+    console.log(message);
+    //подтверждение что товар положили в корзину
 
 function addInCartCountChange(value) {
 
