@@ -62,6 +62,7 @@ function addInCartSumChange(sum, delta) {
     newSum = (oldSum + difference);
     let newSumText;
     newSumText = (newSum + ' ₽');
+    newSumText = `${newSum} ₽`;
     console.log(newSumText);  //итог в корзине
 
     // Конец решения задания №1.3.
