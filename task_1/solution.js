@@ -22,7 +22,9 @@
     message = message + productPrice;
     message = message + " ";
     message = message + "теперь в корзине";
-    console.log(message);  //уведомление о покупке// Конец решения задания №1.1.
+    console.log(message);  //уведомление о покупке
+    
+    // Конец решения задания №1.1.
  
        return message;
 }
