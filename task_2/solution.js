@@ -13,11 +13,9 @@ function calcShipping(sum, min, shipping) {
 
     let shippingSum;                                            
     if (productsSum == 0 || productsSum >= freeShippingMinSum) {
-
         shippingSum = 0;
-      
-      }
-    if (productsSum > 0 || productsSum < freeShippingMinSum) {  
+    }else{
+        (productsSum > 0 && productsSum < freeShippingMinSum) 
         shippingSum = shippingPrice;                           
     }          
     // Конец решения задания №2.1.
@@ -39,7 +37,7 @@ function calcDiscount(sum, min, discount) {
     return discountSum;
 }
 
-function calcInvoice({sum, discountMinSum, discountPrice, shippingFreeMinSum, shippingPrice}) {
+function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shippingPrice}) {
     let productsSum = sum;
     let discountSum = calcDiscount(sum, discountMinSum, discountPart);
     // Задача №2.3. Рассчитать скидки и доставку в корзине
